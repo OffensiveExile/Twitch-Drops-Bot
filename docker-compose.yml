@@ -2,6 +2,7 @@ version: "3"
 services:
   twitch-drops-bot:
     container_name: twitch-drops-bot
+    image: Twitch-Drops-Bot/twitch-drops-bot:oe1.3.2.1
     build: .
     volumes:
       - .:/app/data

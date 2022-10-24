@@ -189,9 +189,9 @@ export class Client {
             throw new Error("Invalid cookies!");
         }
 
-        if (!deviceId) {
+        /*if (!deviceId) {
             throw new Error("Missing device ID!");
-        }
+        }*/
 
         const options: Options = {oauthToken: oauthToken, userId: channelLogin, deviceId: deviceId};
 
